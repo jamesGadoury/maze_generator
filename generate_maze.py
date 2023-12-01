@@ -12,8 +12,8 @@ CELL_SIZE = 30
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
-# Initialize the maze grid
-maze = [[0 for _ in range(WIDTH)] for _ in range(HEIGHT)]
+# Initialize the maze grid with walls
+maze = [[1 for _ in range(WIDTH)] for _ in range(HEIGHT)]
 
 # Function to generate the maze using recursive backtracking
 def generate_maze(x, y):
@@ -23,9 +23,9 @@ def generate_maze(x, y):
     for dx, dy in directions:
         nx, ny = x + 2 * dx, y + 2 * dy
 
-        if 0 <= nx < WIDTH and 0 <= ny < HEIGHT and maze[ny][nx] == 0:
-            maze[y + dy][x + dx] = 1
-            maze[ny][nx] = 1
+        if 0 <= nx < WIDTH and 0 <= ny < HEIGHT and maze[ny][nx] == 1:
+            maze[y + dy][x + dx] = 0
+            maze[ny][nx] = 0
             generate_maze(nx, ny)
 
 # Generate the maze starting from the top-left corner
@@ -65,7 +65,7 @@ for y in range(HEIGHT):
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
+              <name>Gazebo/White</name>
             </script>
           </material>
         </visual>
