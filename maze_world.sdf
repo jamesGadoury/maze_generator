@@ -6,1355 +6,1139 @@
       <uri>model://ground_plane</uri>
     </include>
 
-    <model name="maze_wall_0_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 0.0 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_0_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 0.0 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_1_1">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.3 0.3 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_1_3">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.9 0.3 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_1_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 0.3 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_1_7">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.1 0.3 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_1_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 0.3 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_2_1">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.3 0.6 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_2_3">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.9 0.6 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_2_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 0.6 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_2_7">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.1 0.6 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_2_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 0.6 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_3_1">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.3 0.9 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_3_3">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.9 0.9 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_3_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 0.9 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_3_7">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.1 0.9 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_3_8">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.4 0.9 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_3_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 0.9 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_4_3">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.9 1.2 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_4_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 1.2 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_4_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 1.2 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_5_0">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.0 1.5 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_5_1">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.3 1.5 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_5_2">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.6 1.5 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_5_3">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.9 1.5 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_5_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 1.5 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_5_7">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.1 1.5 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_5_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 1.5 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_6_1">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.3 1.8 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_6_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 1.8 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_6_7">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.1 1.8 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_6_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 1.8 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_7_1">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.3 2.1 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_7_3">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.9 2.1 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_7_4">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.2 2.1 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_7_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 2.1 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_7_6">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.8 2.1 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_7_7">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.1 2.1 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_7_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 2.1 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_8_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 2.4 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_0">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.0 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_1">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.3 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_2">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.6 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_3">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>0.9 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_4">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.2 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_5">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.5 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_6">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>1.8 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_7">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.1 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_8">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.4 2.7 0 0 0 0</pose>
-    </model>
-
-    <model name="maze_wall_9_9">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.3 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/White</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-      <pose>2.7 2.7 0 0 0 0</pose>
-    </model>
-
+                <model name="maze_wall_0_0">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>0 0 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_1_0">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>1 0 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_2_0">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>2 0 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_4_0">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>4 0 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_5_0">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>5 0 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_0">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 0 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_0_-1">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>0 -1 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_3_-1">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>3 -1 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_0_-2">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>0 -2 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_3_-2">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>3 -2 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_-2">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 -2 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_0_-3">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>0 -3 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_3_-3">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>3 -3 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_-3">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 -3 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_0_-4">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>0 -4 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_3_-4">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>3 -4 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_-4">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 -4 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_0_-5">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>0 -5 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_-5">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 -5 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_0_-6">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>0 -6 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_1_-6">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>1 -6 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_2_-6">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>2 -6 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_3_-6">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>3 -6 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_4_-6">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>4 -6 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_-6">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 -6 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_4_-7">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>4 -7 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_-7">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 -7 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_7_-7">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>7 -7 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_8_-7">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>8 -7 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_9_-7">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>9 -7 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_10_-7">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>10 -7 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_11_-7">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>11 -7 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_4_-8">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>4 -8 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_4_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>4 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_5_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>5 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_6_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>6 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_7_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>7 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_8_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>8 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_9_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>9 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_10_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>10 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_11_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>11 -9 0 0 0 0</pose>
+                </model>
+            
+                <model name="maze_wall_12_-9">
+                <static>true</static>
+                <link name="link">
+                    <collision name="collision">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    </collision>
+                    <visual name="visual">
+                    <geometry>
+                        <box>
+                        <size>1 1 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                    </visual>
+                </link>
+                <pose>12 -9 0 0 0 0</pose>
+                </model>
+            
   </world>
 </sdf>
