@@ -1,5 +1,7 @@
 from argparse import ArgumentParser
 
+# TODO This script relies on the x,y being 1 for box extents. It could handle arbitrary x,y extents if smarter.
+
 def main(args):
 
     # Create an SDF string based on the maze
@@ -64,6 +66,6 @@ if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--input-file", default="input_maze.txt")
     parser.add_argument("--output-file", default="maze_world.sdf")
-    parser.add_argument("--wall-height", type=int, default=3)
+    parser.add_argument("--wall-height", type=float, default=0.5)
 
     main(parser.parse_args())
