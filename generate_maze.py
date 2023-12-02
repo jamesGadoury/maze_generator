@@ -1,15 +1,35 @@
 from argparse import ArgumentParser
 
+OLD_GAZEBO_GROUND_PLANE = """
+        <!-- Define a simple ground plane -->
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+"""
+
+OLD_GAZEBO_WHITE_MATERIAL = """
+            <material>
+                <script>
+                <uri>file://media/materials/scripts/gazebo.material</uri>
+                <name>Gazebo/White</name>
+                </script>
+            </material>
+"""
+
+IGN_GAZEBO_GROUND_PLANE = """
+        <!-- Define a simple ground plane -->
+        <include>
+            <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Ground Plane</uri>{
+        </include>
+"""
+
 def main(args):
 
     # Create an SDF string based on the maze
     sdf_content = f"""<?xml version="1.0" ?>
     <sdf version="1.6">
     <world name="default">
-        <!-- Define a simple ground plane -->
-        <include>
-        <uri>model://ground_plane</uri>
-        </include>
+    {OLD_GAZEBO_GROUND_PLANE}
     """
 
     with open(args.input_file) as f:
@@ -24,32 +44,27 @@ def main(args):
                 y_offset = y * args.wall_scale
 
                 sdf_content += f"""
-                    <model name="maze_wall_{x_offset}_{y_offset}">
-                    <static>true</static>
-                    <link name="link">
-                        <collision name="collision">
-                        <geometry>
-                            <box>
-                            <size>{args.wall_scale} {args.wall_scale} {args.wall_height}</size>
-                            </box>
-                        </geometry>
-                        </collision>
-                        <visual name="visual">
-                        <geometry>
-                            <box>
-                            <size>{args.wall_scale} {args.wall_scale} {args.wall_height}</size>
-                            </box>
-                        </geometry>
-                        <material>
-                            <script>
-                            <uri>file://media/materials/scripts/gazebo.material</uri>
-                            <name>Gazebo/White</name>
-                            </script>
-                        </material>
-                        </visual>
-                    </link>
-                    <pose>{x_offset} {y_offset} 0 0 0 0</pose>
-                    </model>
+        <model name="maze_wall_{x_offset}_{y_offset}">
+        <static>true</static>
+        <link name="link">
+            <collision name="collision">
+            <geometry>
+                <box>
+                <size>{args.wall_scale} {args.wall_scale} {args.wall_height}</size>
+                </box>
+            </geometry>
+            </collision>
+            <visual name="visual">
+            <geometry>
+                <box>
+                <size>{args.wall_scale} {args.wall_scale} {args.wall_height}</size>
+                </box>
+            </geometry>
+            {OLD_GAZEBO_WHITE_MATERIAL}
+            </visual>
+        </link>
+        <pose>{x_offset} {y_offset} 0 0 0 0</pose>
+        </model>
                 """
             x += 1
         y -= 1
