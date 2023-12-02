@@ -19,8 +19,16 @@ OLD_GAZEBO_WHITE_MATERIAL = """
 IGN_GAZEBO_GROUND_PLANE = """
         <!-- Define a simple ground plane -->
         <include>
-            <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Ground Plane</uri>{
+            <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Ground Plane</uri>
         </include>
+"""
+
+IGN_GAZEBO_WHITE_MATERIAL = """
+            <material>
+                <ambient>1 1 1 1</ambient>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.1 0.1 0.1 1</specular>
+            </material>
 """
 
 def main(args):
@@ -29,7 +37,7 @@ def main(args):
     sdf_content = f"""<?xml version="1.0" ?>
     <sdf version="1.6">
     <world name="default">
-    {OLD_GAZEBO_GROUND_PLANE}
+    {OLD_GAZEBO_GROUND_PLANE if args.legacy else IGN_GAZEBO_GROUND_PLANE}
     """
 
     with open(args.input_file) as f:
@@ -60,7 +68,7 @@ def main(args):
                 <size>{args.wall_scale} {args.wall_scale} {args.wall_height}</size>
                 </box>
             </geometry>
-            {OLD_GAZEBO_WHITE_MATERIAL}
+            {OLD_GAZEBO_WHITE_MATERIAL if args.legacy else IGN_GAZEBO_WHITE_MATERIAL}
             </visual>
         </link>
         <pose>{x_offset} {y_offset} 0 0 0 0</pose>
@@ -81,6 +89,7 @@ def main(args):
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("input_file", default="input_maze.txt")
+    parser.add_argument("--legacy", action="store_true")
     parser.add_argument("--output-file", default="maze_world.sdf")
     parser.add_argument("--wall-scale", type=float, default=0.5)
     parser.add_argument("--wall-height", type=float, default=0.5)
