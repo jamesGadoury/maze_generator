@@ -1,7 +1,5 @@
 from argparse import ArgumentParser
 
-# TODO This script relies on the x,y being 1 for box extents. It could handle arbitrary x,y extents if smarter.
-
 def main(args):
 
     # Create an SDF string based on the maze
@@ -22,21 +20,24 @@ def main(args):
         x = 0
         for c in line:
             if c == "x":
+                x_offset = x * args.wall_scale
+                y_offset = y * args.wall_scale
+
                 sdf_content += f"""
-                    <model name="maze_wall_{x}_{y}">
+                    <model name="maze_wall_{x_offset}_{y_offset}">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 {args.wall_height}</size>
+                            <size>{args.wall_scale} {args.wall_scale} {args.wall_height}</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 {args.wall_height}</size>
+                            <size>{args.wall_scale} {args.wall_scale} {args.wall_height}</size>
                             </box>
                         </geometry>
                         <material>
@@ -47,7 +48,7 @@ def main(args):
                         </material>
                         </visual>
                     </link>
-                    <pose>{x} {y} 0 0 0 0</pose>
+                    <pose>{x_offset} {y_offset} 0 0 0 0</pose>
                     </model>
                 """
             x += 1
@@ -64,8 +65,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = ArgumentParser()
-    parser.add_argument("--input-file", default="input_maze.txt")
+    parser.add_argument("input_file", default="input_maze.txt")
     parser.add_argument("--output-file", default="maze_world.sdf")
+    parser.add_argument("--wall-scale", type=float, default=0.5)
     parser.add_argument("--wall-height", type=float, default=0.5)
 
     main(parser.parse_args())

@@ -6,20 +6,20 @@
         <uri>model://ground_plane</uri>
         </include>
     
-                    <model name="maze_wall_0_0">
+                    <model name="maze_wall_0.0_0.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -30,23 +30,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>0 0 0 0 0 0</pose>
+                    <pose>0.0 0.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_1_0">
+                    <model name="maze_wall_0.5_0.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -57,23 +57,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>1 0 0 0 0 0</pose>
+                    <pose>0.5 0.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_2_0">
+                    <model name="maze_wall_1.0_0.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -84,23 +84,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>2 0 0 0 0 0</pose>
+                    <pose>1.0 0.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_4_0">
+                    <model name="maze_wall_2.0_0.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -111,23 +111,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>4 0 0 0 0 0</pose>
+                    <pose>2.0 0.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_5_0">
+                    <model name="maze_wall_2.5_0.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -138,23 +138,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>5 0 0 0 0 0</pose>
+                    <pose>2.5 0.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_0">
+                    <model name="maze_wall_3.0_0.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -165,23 +165,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 0 0 0 0 0</pose>
+                    <pose>3.0 0.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_0_-1">
+                    <model name="maze_wall_0.0_-0.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -192,23 +192,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>0 -1 0 0 0 0</pose>
+                    <pose>0.0 -0.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_3_-1">
+                    <model name="maze_wall_1.5_-0.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -219,23 +219,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>3 -1 0 0 0 0</pose>
+                    <pose>1.5 -0.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_0_-2">
+                    <model name="maze_wall_0.0_-1.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -246,23 +246,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>0 -2 0 0 0 0</pose>
+                    <pose>0.0 -1.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_3_-2">
+                    <model name="maze_wall_1.5_-1.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -273,23 +273,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>3 -2 0 0 0 0</pose>
+                    <pose>1.5 -1.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_-2">
+                    <model name="maze_wall_3.0_-1.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -300,23 +300,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 -2 0 0 0 0</pose>
+                    <pose>3.0 -1.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_0_-3">
+                    <model name="maze_wall_0.0_-1.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -327,23 +327,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>0 -3 0 0 0 0</pose>
+                    <pose>0.0 -1.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_3_-3">
+                    <model name="maze_wall_1.5_-1.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -354,23 +354,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>3 -3 0 0 0 0</pose>
+                    <pose>1.5 -1.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_-3">
+                    <model name="maze_wall_3.0_-1.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -381,23 +381,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 -3 0 0 0 0</pose>
+                    <pose>3.0 -1.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_0_-4">
+                    <model name="maze_wall_0.0_-2.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -408,23 +408,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>0 -4 0 0 0 0</pose>
+                    <pose>0.0 -2.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_3_-4">
+                    <model name="maze_wall_1.5_-2.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -435,23 +435,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>3 -4 0 0 0 0</pose>
+                    <pose>1.5 -2.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_-4">
+                    <model name="maze_wall_3.0_-2.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -462,23 +462,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 -4 0 0 0 0</pose>
+                    <pose>3.0 -2.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_0_-5">
+                    <model name="maze_wall_0.0_-2.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -489,23 +489,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>0 -5 0 0 0 0</pose>
+                    <pose>0.0 -2.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_-5">
+                    <model name="maze_wall_3.0_-2.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -516,23 +516,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 -5 0 0 0 0</pose>
+                    <pose>3.0 -2.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_0_-6">
+                    <model name="maze_wall_0.0_-3.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -543,23 +543,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>0 -6 0 0 0 0</pose>
+                    <pose>0.0 -3.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_1_-6">
+                    <model name="maze_wall_0.5_-3.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -570,23 +570,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>1 -6 0 0 0 0</pose>
+                    <pose>0.5 -3.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_2_-6">
+                    <model name="maze_wall_1.0_-3.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -597,23 +597,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>2 -6 0 0 0 0</pose>
+                    <pose>1.0 -3.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_3_-6">
+                    <model name="maze_wall_1.5_-3.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -624,23 +624,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>3 -6 0 0 0 0</pose>
+                    <pose>1.5 -3.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_4_-6">
+                    <model name="maze_wall_2.0_-3.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -651,23 +651,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>4 -6 0 0 0 0</pose>
+                    <pose>2.0 -3.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_-6">
+                    <model name="maze_wall_3.0_-3.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -678,23 +678,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 -6 0 0 0 0</pose>
+                    <pose>3.0 -3.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_4_-7">
+                    <model name="maze_wall_2.0_-3.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -705,23 +705,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>4 -7 0 0 0 0</pose>
+                    <pose>2.0 -3.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_-7">
+                    <model name="maze_wall_3.0_-3.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -732,23 +732,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 -7 0 0 0 0</pose>
+                    <pose>3.0 -3.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_7_-7">
+                    <model name="maze_wall_3.5_-3.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -759,23 +759,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>7 -7 0 0 0 0</pose>
+                    <pose>3.5 -3.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_8_-7">
+                    <model name="maze_wall_4.0_-3.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -786,23 +786,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>8 -7 0 0 0 0</pose>
+                    <pose>4.0 -3.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_9_-7">
+                    <model name="maze_wall_4.5_-3.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -813,23 +813,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>9 -7 0 0 0 0</pose>
+                    <pose>4.5 -3.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_10_-7">
+                    <model name="maze_wall_5.0_-3.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -840,23 +840,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>10 -7 0 0 0 0</pose>
+                    <pose>5.0 -3.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_11_-7">
+                    <model name="maze_wall_5.5_-3.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -867,23 +867,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>11 -7 0 0 0 0</pose>
+                    <pose>5.5 -3.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_4_-8">
+                    <model name="maze_wall_2.0_-4.0">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -894,23 +894,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>4 -8 0 0 0 0</pose>
+                    <pose>2.0 -4.0 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_4_-9">
+                    <model name="maze_wall_2.0_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -921,23 +921,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>4 -9 0 0 0 0</pose>
+                    <pose>2.0 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_5_-9">
+                    <model name="maze_wall_2.5_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -948,23 +948,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>5 -9 0 0 0 0</pose>
+                    <pose>2.5 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_6_-9">
+                    <model name="maze_wall_3.0_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -975,23 +975,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>6 -9 0 0 0 0</pose>
+                    <pose>3.0 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_7_-9">
+                    <model name="maze_wall_3.5_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -1002,23 +1002,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>7 -9 0 0 0 0</pose>
+                    <pose>3.5 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_8_-9">
+                    <model name="maze_wall_4.0_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -1029,23 +1029,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>8 -9 0 0 0 0</pose>
+                    <pose>4.0 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_9_-9">
+                    <model name="maze_wall_4.5_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -1056,23 +1056,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>9 -9 0 0 0 0</pose>
+                    <pose>4.5 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_10_-9">
+                    <model name="maze_wall_5.0_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -1083,23 +1083,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>10 -9 0 0 0 0</pose>
+                    <pose>5.0 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_11_-9">
+                    <model name="maze_wall_5.5_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -1110,23 +1110,23 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>11 -9 0 0 0 0</pose>
+                    <pose>5.5 -4.5 0 0 0 0</pose>
                     </model>
                 
-                    <model name="maze_wall_12_-9">
+                    <model name="maze_wall_6.0_-4.5">
                     <static>true</static>
                     <link name="link">
                         <collision name="collision">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         </collision>
                         <visual name="visual">
                         <geometry>
                             <box>
-                            <size>1 1 0.5</size>
+                            <size>0.5 0.5 0.5</size>
                             </box>
                         </geometry>
                         <material>
@@ -1137,7 +1137,7 @@
                         </material>
                         </visual>
                     </link>
-                    <pose>12 -9 0 0 0 0</pose>
+                    <pose>6.0 -4.5 0 0 0 0</pose>
                     </model>
                 
     </world>
